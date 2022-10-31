@@ -5,10 +5,17 @@
  */
 package dataaccess;
 
+import java.util.ArrayList;
+import models.User;
+
 /**
  *
  * @author sowmi
  */
 public class DBUtil {
-    
+    public ArrayList<User> getAllUsers(){
+        ArrayList<User> userList = new ArrayList<>();
+        
+        return userList;
+    }
 }
